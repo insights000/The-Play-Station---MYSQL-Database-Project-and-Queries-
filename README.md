@@ -48,9 +48,25 @@ IN this one, the ORDER BY ASC function is being used to arrange the columns by a
 
 
 
+
+
+
+
+
+
 And in this one we used the LIKE function and where the function, the % denotes before or after characters therefore "%RPG%" denoted that anything that is listed RPG in the type genre and the words after and before it will appear in the table, please see the results below to that question.
 
 ![image](https://github.com/insights000/The-Play-Station---MYSQL-Database-Project-and-Queries-/assets/150028138/0c9f6eae-a96e-49c2-b00e-3968364c597d)
+
+
+
+
+
+
+
+
+
+
 
 
 
