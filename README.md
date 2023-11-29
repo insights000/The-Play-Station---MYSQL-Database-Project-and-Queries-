@@ -21,15 +21,17 @@ Which resulted in this database being created, voila, we now have a database sys
 ![image](https://github.com/insights000/The-Play-Station---MYSQL-Database-Project-and-Queries-/assets/150028138/613fa016-3b63-4fd7-b3ad-7fa48f131157)
 
 **
-Querying our Database**
-The second part of the project involved querying out database. I created questions that could be asked about the database of games and then listed the questions here, here are the following questions I asked
+**Querying our Database****
+
+![image](https://github.com/insights000/The-Play-Station---MYSQL-Database-Project-and-Queries-/assets/150028138/a39f5ef6-7975-4d70-8451-cc580f9efbcc)
 
 
 
-![image](https://github.com/insights000/The-Play-Station---MYSQL-Database-Project-and-Queries-/assets/150028138/b3d76b2f-590e-4adc-b949-e60bbfbc8d10)
-
-
-
+The second part of the project involved querying out database. I created questions that could be asked about the database of games and then listed the questions here, here are the examples of some of the questions that were answered by me in the code file
+******What are all the games rated for adults?
+Order the games by alphabetical order
+What are all the games that belong to the RPG type?**
+****
 
 
 And here were some of the answers to some questions and the code I wrote in response, AS YOU CAN SEE THE WHERE STATEMENT IS BEING USED, WHERE IS A CONDITIONAL STATEMENT USED TO SPECIFIY A CERTAIN PROPERTY WE ARE LOOKING IN RETURN FOR THE FEEDBACK TO PROVIDE IT IN THE TABLE
@@ -39,39 +41,28 @@ And here were some of the answers to some questions and the code I wrote in resp
 
 
 
-
-
-
 ![image](https://github.com/insights000/The-Play-Station---MYSQL-Database-Project-and-Queries-/assets/150028138/aa823038-7ee6-4568-8e19-6c5dd03598f1)
-
-
-
-
-
 
 
 IN this one, the ORDER BY ASC function is being used to arrange the columns by alphabetical ascending order, this is used to filter data to make it appear a certain way within the MYSQL server database we have created.
 
 
 
+And in this one we used the LIKE function and where the function, the % denotes before or after characters therefore "%RPG%" denoted that anything that is listed RPG in the type genre and the words after and before it will appear in the table, please see the results below to that question.
+
+![image](https://github.com/insights000/The-Play-Station---MYSQL-Database-Project-and-Queries-/assets/150028138/0c9f6eae-a96e-49c2-b00e-3968364c597d)
 
 
 
 
 
-
-
-Challenge: 
-
+**
+**********Challenge:** **********
 ![image](https://github.com/insights000/The-Play-Station---MYSQL-Database-Project-and-Queries-/assets/150028138/d8bfa71f-cdc0-4dea-8edc-3305f038c372)
 
 
 
-
-
 In this fun challenge we take a scenario where your 10 year old cousin has raided your game database and wants to play all the games passed the PEGI age ratings. The replicated hack he perfromed is as follows, he creates a new columnn after performing a calculation that lowers all of the age ratings by -8, in this case -8 because he is 10, so to play an 18 rated game which is the max the highest number he must subtract by is 8, that way all the games become available to him, we name this column new_age, using the AS alias MySQL function to have a column calculation then forming a new column name in the table as followed.
-
-
 
 ![image](https://github.com/insights000/The-Play-Station---MYSQL-Database-Project-and-Queries-/assets/150028138/3d2a8443-83f0-494d-bbf3-585900b3d3f1)
 
